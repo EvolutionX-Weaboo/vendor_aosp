@@ -184,7 +184,7 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Face Unlock
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+ifeq ($(CUSTOM_BUILD_TYPE), Weaboolized)
 TARGET_FACE_UNLOCK_SUPPORTED := false
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
