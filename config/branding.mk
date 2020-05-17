@@ -1,12 +1,12 @@
 # Versioning System
-EVO_BASE_VERSION := 4.3
-EVO_CODENAME := Undisputed
+EVO_BASE_VERSION := rev1.0
+EVO_CODENAME := Konnichiwa
 EVO_DONATE_URL ?= Unknown
 EVO_MAINTAINER ?= Unknown
 EVO_SUPPORT_URL ?= https://t.me/EvolutionX
 
 # Set all versions
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+CUSTOM_BUILD_TYPE ?= Not-A-Weeb
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
